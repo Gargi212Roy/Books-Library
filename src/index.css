@@ -1,13 +1,124 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --purple-color: #56244c;
+  --red-color: #a91111;
+  --white-color: #fff;
+  --black-color: #010101;
+  --transition: all 300ms ease-in-out;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: var(--black-color);
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+button {
+  outline: 0;
+  border: none;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  display: block;
+}
+input {
+  border: none;
+  outline: 0;
+  font-family: inherit;
+  font-size: 1.6rem;
+}
+
+.bg_white {
+  background-color: var(--white-color);
+}
+
+.text_white {
+  color: var(--white-color);
+}
+.text_red {
+  color: var(--red-color);
+}
+.text_purple {
+  color: var(--purple-color);
+}
+.text_uppercase {
+  text-transform: uppercase;
+}
+.text_center {
+  text-align: center;
+}
+.text_capitalize {
+  text-transform: capitalize;
+}
+.text_italic {
+  font-style: italic;
+}
+
+.fw_6 {
+  font-weight: 600;
+}
+.fw_7 {
+  font-weight: 700;
+}
+
+.fs_15 {
+  font-size: 1.5rem;
+}
+.fs_18 {
+  font-size: 1.8rem;
+}
+.fs_22 {
+  font-size: 5.2rem;
+}
+.fs_60 {
+  font-size: 6rem;
+}
+
+.ls_1 {
+  letter-spacing: 1px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex_column {
+  flex-direction: column;
+}
+.flex_sb {
+  justify-content: space-between;
+}
+.flex_c {
+  justify-content: center;
+}
+.grid {
+  display: grid;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section_title h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 18px 0 24px 0;
 }

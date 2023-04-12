@@ -1,0 +1,15 @@
+.header_content {
+  min-height: 75vh;
+  background: linear-gradient(rgba(209, 129, 45, 0.3), rgba(62, 54, 157, 0.5)),
+    url("../assets/HeaderImg1.jpeg") center/cover no-repeat;
+  flex-direction: column;
+}
+.header_title {
+  font-size: 4.2rem;
+}
+.header_text {
+  margin-top: -2rem;
+  margin-bottom: 2.8rem;
+  opacity: 0.8;
+  max-width: 775px;
+}

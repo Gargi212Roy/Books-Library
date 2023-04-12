@@ -1,0 +1,15 @@
+.search_form {
+  width: 100%;
+  max-width: 680px;
+}
+.search_form_input {
+  padding: 1.4rem 2.8rem;
+  border-radius: 3.8rem;
+}
+.search_form_input .input_text {
+  font-size: 2rem;
+  padding: 0.6rem;
+}
+.search_form_input .input_text::placeholder {
+  opacity: 0.9;
+}
